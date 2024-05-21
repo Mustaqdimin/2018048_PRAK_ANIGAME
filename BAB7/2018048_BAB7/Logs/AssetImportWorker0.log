@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 5989 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\New folder (3)\Unity\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Abil UTS/bab6/BAB7ABIL
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57028
+Successfully changed project path to: D:/Abil UTS/bab6/BAB7ABIL
+D:/Abil UTS/bab6/BAB7ABIL
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22316] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 138420866 [EditorId] 138420866 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L9N77MFB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22316] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 138420866 [EditorId] 138420866 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L9N77MFB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 28.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Abil UTS/bab6/BAB7ABIL/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     2994 MB
+    Driver:   27.20.15026.8004
+Initialize mono
+Mono path[0] = 'D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/New folder (3)/Unity/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006597 seconds.
+- Loaded All Assemblies, in  0.540 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 630 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.087 seconds
+Domain Reload Profiling: 1628ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1088ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1005ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (772ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abil UTS\bab6\BAB7ABIL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abil UTS\bab6\BAB7ABIL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.478 seconds
+Refreshing native plugins compatible for Editor in 9.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 2588ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1183ms)
+		LoadAssemblies (728ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (582ms)
+			TypeCache.Refresh (540ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (893ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (703ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (68.2 KB). Loaded Objects now: 4719.
+Memory consumption went from 147.0 MB to 147.0 MB.
+Total: 7.220600 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.167300 ms MarkObjects: 5.528600 ms  DeleteObjects: 1.089100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2071617.066745 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillLeft.asset
+  artifactKey: Guid(8a419e6e5d264f544880d496ec161a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillLeft.asset using Guid(8a419e6e5d264f544880d496ec161a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a3db85f514ee27c66e4fa35e3e111b') in 0.067630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillLeft2.asset
+  artifactKey: Guid(1bca759bc57a5d643942d0ed59d58edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillLeft2.asset using Guid(1bca759bc57a5d643942d0ed59d58edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d978c166e8d54f9ec4a0d8cd0fd148') in 0.017886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/HillRight.asset
+  artifactKey: Guid(ab57c4f1dd9e278468bb7a9ddd9ed037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillRight.asset using Guid(ab57c4f1dd9e278468bb7a9ddd9ed037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b81b6d581925f52c93ad6f010b97d4') in 0.013693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/HillRight2 WithDropShadow.asset
+  artifactKey: Guid(2319118ba52441144a192296b4c20e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillRight2 WithDropShadow.asset using Guid(2319118ba52441144a192296b4c20e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905f4a32e4fc6db711d145115af05f0e') in 0.014487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillLeft2&Right2 WithDropShadow.asset
+  artifactKey: Guid(0b48bc021fee327479e5e03f9537fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillLeft2&Right2 WithDropShadow.asset using Guid(0b48bc021fee327479e5e03f9537fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48db08551854e301a0bdc041f2cff566') in 0.006916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassMid_19.asset
+  artifactKey: Guid(7448409e1fbeb4e4c890769421568253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassMid_19.asset using Guid(7448409e1fbeb4e4c890769421568253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74a989cd46312c93d540c04b06cf03') in 0.008235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tugas7/Tile Palette/HillLeft2.asset
+  artifactKey: Guid(5b5a7b9bf2b71124785c1272d9245ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillLeft2.asset using Guid(5b5a7b9bf2b71124785c1272d9245ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cf761fd54ca2955e02248f671b6c21') in 0.013689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/Grass.asset
+  artifactKey: Guid(e04fc3794b610cd48aad6e47306767f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/Grass.asset using Guid(e04fc3794b610cd48aad6e47306767f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a76b0f071c8291bcd5e065b076c1ac0') in 0.006570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassLeft.asset
+  artifactKey: Guid(0b6dcbb5fcb470f489e282bffcf5f73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassLeft.asset using Guid(0b6dcbb5fcb470f489e282bffcf5f73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f900bd0077b9a10369eed1de59bd8d4') in 0.006656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/HillLeft2 WithDropShadow.asset
+  artifactKey: Guid(d68d84db31a5ae84a9d9491187f5fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillLeft2 WithDropShadow.asset using Guid(d68d84db31a5ae84a9d9491187f5fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aab2ab0f1ece5da5fc7185cd17fbb47') in 0.006368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassCliffRight.asset
+  artifactKey: Guid(a481b175e32ed954f82fe50fe77636d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassCliffRight.asset using Guid(a481b175e32ed954f82fe50fe77636d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b423739993e31d62f7bdae5a21d50f9a') in 0.013415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassRight.asset
+  artifactKey: Guid(09f04cfe30011b74dbd254a561f297b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassRight.asset using Guid(09f04cfe30011b74dbd254a561f297b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e561d9aabd515175cdd8a60bff8610') in 0.015141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillRight WithDropShadow.asset
+  artifactKey: Guid(907d5ff7e24681a40a3bb056b0ea9d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillRight WithDropShadow.asset using Guid(907d5ff7e24681a40a3bb056b0ea9d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441fc6ba96f19ba56992a2513c89984c') in 0.007138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tugas7/Tile Palette/HillRight2.asset
+  artifactKey: Guid(9592cdaffddb0ae4eae90da662cb1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillRight2.asset using Guid(9592cdaffddb0ae4eae90da662cb1677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6513ad0b8c5874f10f167687aa7828b') in 0.006642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassMid.asset
+  artifactKey: Guid(94aaa1b880e384647b9985cfd10d67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassMid.asset using Guid(94aaa1b880e384647b9985cfd10d67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df785cc583281bd695098fa6821fed7f') in 0.006902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillRight2.asset
+  artifactKey: Guid(76b63658c7b8ff24caf201cab6fad0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillRight2.asset using Guid(76b63658c7b8ff24caf201cab6fad0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c47c6eefeee97c9f934e34552ed0f5') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tugas7/Tile Palette/HillLeft_23.asset
+  artifactKey: Guid(d3e5ce96e90228d4ba5f4f0d6dd9b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/HillLeft_23.asset using Guid(d3e5ce96e90228d4ba5f4f0d6dd9b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eebb7f839a11ce82d3f5371efa97977') in 0.006259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassCliffMid.asset
+  artifactKey: Guid(bc548706d1ce3414884a4e800c7589f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassCliffMid.asset using Guid(bc548706d1ce3414884a4e800c7589f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114bdbeada47765c60b2a4f6f64f69cf') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassJoinHillLeft2 WithDropShadow.asset
+  artifactKey: Guid(03a3717b5db457a4a855c92e6deefa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassJoinHillLeft2 WithDropShadow.asset using Guid(03a3717b5db457a4a855c92e6deefa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4324b099dd70b32899da26f744f6a8') in 0.006910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tugas7/Tile Palette/GrassCliffLeft.asset
+  artifactKey: Guid(d0981d5c9a6c8f24ea958d2e60f8e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tugas7/Tile Palette/GrassCliffLeft.asset using Guid(d0981d5c9a6c8f24ea958d2e60f8e1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1865a114f279a31b75a8c3ef6a67d35b') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4725.
+Memory consumption went from 77.8 MB to 77.8 MB.
+Total: 8.808300 ms (FindLiveObjects: 0.900400 ms CreateObjectMapping: 0.331500 ms MarkObjects: 7.533500 ms  DeleteObjects: 0.040800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abil UTS\bab6\BAB7ABIL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abil UTS\bab6\BAB7ABIL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.986 seconds
+Refreshing native plugins compatible for Editor in 7.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.393 seconds
+Domain Reload Profiling: 3378ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (116ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (577ms)
+		LoadAssemblies (681ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (615ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (42.4 KB). Loaded Objects now: 4729.
+Memory consumption went from 143.5 MB to 143.5 MB.
+Total: 13.337700 ms (FindLiveObjects: 1.442000 ms CreateObjectMapping: 0.719500 ms MarkObjects: 10.895000 ms  DeleteObjects: 0.278700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
